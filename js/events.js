@@ -4,7 +4,7 @@ function getIt(){
   }
   
   function frameIt(){
-    $("img").on("load", function(){$("img").prepend("#tasty")})
+    $("img").on("load", function(){$("img").prepend("<img id='tasty' src = />")})
   }
   
   function pressIt() {
@@ -25,4 +25,3 @@ $(document).ready(function(){
 });
 
 
-$("#image").prepend('<img  src="https://s3.amazonaws.com/learn-verified/painting-with-dog.gif" />'
